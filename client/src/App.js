@@ -4,6 +4,7 @@ import { Home } from "./pages/Home";
 import { Users } from "./pages/Users";
 import { Signup } from "./pages/Signup";
 import { Login } from "./pages/Login";
+import { Admin } from "./pages/Admin";
 import { MainContext } from "./components/MainContext";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/users" element={<Users />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/admin" element={<Admin />} />
         </Routes>
       </BrowserRouter>
     </MainContext.Provider>
